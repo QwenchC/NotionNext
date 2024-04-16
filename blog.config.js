@@ -24,7 +24,7 @@ const BLOG = {
   CUSTOM_MENU: process.env.NEXT_PUBLIC_CUSTOM_MENU || false, // 支持Menu 类型，从3.12.0版本起，各主题将逐步支持灵活的二级菜单配置，替代了原来的Page类型，此配置是试验功能、默认关闭。
 
   AUTHOR: process.env.NEXT_PUBLIC_AUTHOR || 'QQS', // 您的昵称 例如 tangly1024
-  BIO: process.env.NEXT_PUBLIC_BIO ||  qinqiqqsun@gmail.com, // 作者简介
+  BIO: process.env.NEXT_PUBLIC_BIO || '<div>音乐爱好者🎤🎶<br/>/数学专业大学生📈<br/>/计算机实用项目搜罗者💻<br/>/有趣灵魂😜</div>', // 作者简介
   LINK: process.env.NEXT_PUBLIC_LINK || 'https://qqs-fun.icu', // 网站地址
   KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || 'Notion, 博客', // 网站关键词 英文逗号隔开
   SINCE: process.env.NEXT_SINCE || 2024, // 建站年份
